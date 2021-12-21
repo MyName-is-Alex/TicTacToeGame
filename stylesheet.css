@@ -27,6 +27,7 @@ section {
   opacity: 0;
   transition-duration: 2s;
   position: absolute;
+  z-index: -1;
 }
 
 .options {

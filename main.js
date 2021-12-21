@@ -165,6 +165,7 @@ function option3x3() {
   cells.forEach(cell => {
     cell.style.opacity = '0';
     cell.style.position = 'absolute';
+    cell.style.zIndex = '-1';
   });
   gameOption = true;
   handleRestartGame();
@@ -178,6 +179,7 @@ function option4x4() {
   cells.forEach(cell => {
     cell.style.opacity = '1.0';
     cell.style.position = 'relative';
+    cell.style.zIndex = '1';
   });
   gameOption = false;
   handleRestartGame();
